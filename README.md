@@ -4,7 +4,7 @@
 
 - 通过 `$DSH_HOME/settings.yaml`（默认 `~/.dsh/settings.yaml`）热更新，**无需重启、无需改动安装包**
 - 覆盖完整流程：配置分层原理 → 确认最新模型 ID → 修改设置 → schema 校验 → 验证 → 回滚
-- 附带 2026-10 实战案例：升级到 DeepSeek V4.1（Flash / Pro）
+- 附带 2026-10 实战案例：API 实际支持 `deepseek-flash` / `deepseek-v4-pro`（教训：以 API 报错列出的支持名称为准，网上流传的 `deepseek-v4.1-*` 不可用）
 
 ## 安装
 
@@ -22,7 +22,7 @@ git clone https://github.com/tgrocp/dsh-model-upgrade.git ~/.dsh/skills/dsh-mode
 直接对 agent 说：
 
 - "更新 / 升级 DSH 的模型到最新版"
-- "接入最新的 DeepSeek 模型（如 V4.1 Flash / Pro）"
+- "接入最新的 DeepSeek 模型（如 deepseek-flash）"
 - "模型选择器里缺少新模型"
 
 ## 文件
